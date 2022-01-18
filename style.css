@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Zen+Tokyo+Zoo&display=swap');
+#logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+}
+.left-menu  ul li {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+#right-menu ul li{
+    margin-right: 20px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-size: 20px;
+    text-align: left;
+}
+#wholecard{
+    position: relative;
+}
+#card-title{
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+    border-radius: 30%;
+}
+.lineline{
+    border-top: 3px solid black;
+}
+.footerlist{
+    list-style: none;
+    text-align: left;
+
+}
+.foot{
+    margin-top: 70px;
+}
